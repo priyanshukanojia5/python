@@ -17,5 +17,3 @@
 # 3.else == run the code only when no exception occurs
 # 4.finally== it will run no matter what
 # 5 raise == manually throws an exception
-# chalo agge code padhenge
-# python code aage
