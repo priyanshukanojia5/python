@@ -1,4 +1,4 @@
 i= 1
-while i <=5:
-  print("hello world")
+while i <=10:
+  print(i*3)
   i+=1
