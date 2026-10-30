@@ -13,7 +13,7 @@
 # exception handling there are some keyword to it
 
 # 1. try == wrap the code which might get exception { syntax= try: } and try also come with except or finally
-# 2.except == handle the exception when it occurs {syntac for any error is == except Exception as err: } this can be use for many exception
+# 2.except == handle the exception when it occurs {syntax for any error is == except Exception as err: } this can be use for many exception
 # 3.else == run the code only when no exception occurs
 # 4.finally== it will run no matter what
 # 5 raise == manually throws an exception
