@@ -1,7 +1,7 @@
 import random
 num = random.randint(1,49)
 tries=0
-while True & tries<5:
+while  tries<5:
     a=int(input("please enter the number between 1 and 49:- "))
     if num==a:
       print(f"you won the game in {tries} steps")
@@ -17,6 +17,7 @@ while True & tries<5:
           print("go little lower")
           tries+=1
     else:
-         print("you loss") 
-         tries+=1
- 
+        print("u loss")
+        tries += 1
+
+print(f"you loss the game the correct answer is {num}")

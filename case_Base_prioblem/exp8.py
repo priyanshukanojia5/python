@@ -20,7 +20,7 @@ def fetch_data():
         print("\nUnique Cities:", len(cities))
         print("Cities:", ", ".join(sorted(cities)))
 
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e :
         print("Error fetching data:", e)
 
     except (ValueError, KeyError, TypeError) as e:
