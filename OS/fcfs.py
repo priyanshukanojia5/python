@@ -32,32 +32,32 @@
 # print("Average WT =", tw/n)
 # print("Average TAT =", tt/n)
 
+
 #sjf scheduling algorithm
+n = int(input("Enter number of processes: "))
 
-# n = int(input("Enter number of processes: "))
+bt = []
+for i in range(n):
+    bt.append(int(input("Enter burst time: ")))
 
-# bt = []
-# for i in range(n):
-#     bt.append(int(input("Enter burst time: ")))
+bt.sort()
 
-# bt.sort()
+time = 0
+tw = 0
+tt = 0
 
-# time = 0
-# tw = 0
-# tt = 0
+print("\nP\tBT\tCT\tTAT\tWT")
 
-# print("\nP\tBT\tCT\tTAT\tWT")
+for i in range(n):
+    time += bt[i]
+    tat = time
+    wt = tat - bt[i]
 
-# for i in range(n):
-#     time += bt[i]
-#     tat = time
-#     wt = tat - bt[i]
+    tw += wt
+    tt += tat
 
-#     tw += wt
-#     tt += tat
+    print(i+1, "\t", bt[i], "\t", time, "\t", tat, "\t", wt)
 
-#     print(i+1, "\t", bt[i], "\t", time, "\t", tat, "\t", wt)
-
-# print("Average WT =", tw/n)
-# print("Average TAT =", tt/n)
+print("Average WT =", tw/n)
+print("Average TAT =", tt/n)
 
