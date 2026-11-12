@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac33fe5d-73ad-4e91-af87-3d364a469991" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_Base_prioblem/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_Base_prioblem/bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops/randomgame.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops/randomgame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.agr.executor": "Run",
     "Python.first.executor": "Run",
+    "Python.interface.executor": "Run",
     "Python.methods.executor": "Run",
     "Python.randomgame.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,6 +65,11 @@
           <url>file://$PROJECT_DIR$/function/agr.py</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oops/interface.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
